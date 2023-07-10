@@ -1,0 +1,450 @@
+body {
+    margin: 0px;
+}
+
+.background {
+    background: rgb(134, 131, 131);
+    height: 100vh;
+    width: 100vw;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.whole-page {
+    background: rgb(20, 18, 18);
+    display: flex;
+    border-radius: 9px;
+    overflow: hidden;
+    height: 540px;
+    width: 880px;
+}
+
+.left-part {
+    background: rgb(20, 18, 18);
+}
+
+.samantha {
+    display: flex;
+    gap: 18px;
+    align-items: center;
+    padding: 20px;
+    padding-bottom: 0px;
+}
+
+.name:first-letter {
+    font-size: 115%;
+}
+
+.face {
+    color: white;
+    background: gray;
+}
+
+.name {
+    color: white;
+    font-size: medium;
+}
+
+.gmail {
+    font-size: small;
+    color: rgb(134, 131, 131);
+}
+
+.menu {
+    font-size: small;
+    color: rgb(134, 131, 131);
+}
+
+.icon {
+    color: white;
+}
+
+.liner {
+    display: flex;
+    gap: 15px;
+    border-bottom: 1px solid rgb(43, 41, 41);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    margin-right: 20px;
+    padding-left: 20px;
+    height: 20px;
+}
+
+.liner:hover {
+    background: rgb(43, 41, 41);
+    border-left: 1px solid red;
+    margin-right: 0;
+    padding-left: 18px;
+}
+
+.liner:hover .menu {
+    color: azure;
+}
+
+.main {
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.main:first-letter {
+    font-size: 115%;
+}
+
+.menu:first-letter {
+    font-size: 115%;
+}
+
+.dark-purple {
+    color: rgb(99, 28, 165);
+}
+
+.dark-purple-2 {
+    color: rgb(99, 28, 165);
+}
+
+.dark-purple-2:hover {
+    border-left: 2px solid rgb(99, 28, 165);
+}
+
+.blue {
+    color: rgb(88, 88, 215);
+}
+
+.blue-2 {
+    color: rgb(88, 88, 215);
+}
+
+.blue-2:hover {
+    border-left: 2px solid rgb(88, 88, 215);
+}
+
+.pink {
+    color: rgb(186, 40, 147);
+}
+
+.pink-2 {
+    color: rgb(186, 40, 147);
+}
+
+.pink-2:hover {
+    border-left: 2px solid rgb(186, 40, 147);
+}
+
+.green {
+    color: rgb(3, 150, 3);
+}
+
+.green-2 {
+    color: rgb(3, 150, 3);
+}
+
+.green-2:hover {
+    border-left: 2px solid rgb(3, 150, 3);
+}
+
+.orange {
+    color: orange;
+}
+
+.orange-2 {
+    color: orange;
+}
+
+.orange-2:hover {
+    border-left: 2px solid orange;
+}
+
+.purple {
+    color: blueviolet;
+}
+
+.purple-2 {
+    color: blueviolet;
+}
+
+.purple-2:hover {
+    border-left: 2px solid blueviolet;
+}
+
+.aquamarine {
+    color: rgb(63, 253, 189);
+}
+
+.aquamarine-2 {
+    color: rgb(63, 253, 189);
+}
+
+.aquamarine-2:hover {
+    border-left: 2px solid rgb(63, 253, 189);
+}
+
+.orangered {
+    color: rgb(240, 27, 27);
+}
+
+.orangered-2 {
+    color: rgb(240, 27, 27);
+}
+
+.orangered-2:hover {
+    border-left: 2px solid rgb(240, 27, 27);
+}
+
+.yellow {
+    color: rgb(255, 175, 55);
+}
+
+.yellow-2 {
+    color: rgb(255, 175, 55);
+}
+
+.yellow-2:hover {
+    border-left: 2px solid rgb(255, 175, 55);
+}
+
+
+
+
+.settings {
+    border-right: 1px solid gray;
+    width: 280px;
+}
+
+.caption {
+    color: white;
+    font-size: large;
+    padding: 20px;
+}
+
+.profile-information {
+    width: 210px;
+    height: 90px;
+    background: rgb(64, 64, 246);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    padding: 15px;
+    padding-bottom: 29px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: medium;
+    width: 85px;
+    height: 50px;
+    background: rgb(109, 109, 224);
+    border-radius: 50%;
+    border: 2px solid white;
+    border-left: 2px solid rgb(109, 109, 224);
+    transform: rotate(45deg);
+}
+
+.number {
+    transform: rotate(-45deg);
+}
+
+.percent {
+    display: flex;
+    padding: 7px;
+    align-items: center;
+    gap: 15px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.profile {
+    font-size: 15px;
+    color: rgb(233, 222, 222);
+}
+
+.complete {
+    font-size: small;
+    color: rgb(200, 193, 193);
+}
+
+.button {
+    background: white;
+    color: rgb(64, 64, 246);
+    border-radius: 10px;
+    display: flex;
+    cursor: pointer;
+    font-size: x-small;
+    font-weight: bold;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    border: none;
+}
+
+.button:hover {
+    box-shadow: 2px 3px 10px 0px #000000;
+}
+
+.third-button {
+    background: rgb(43, 41, 41);
+    width: 30px;
+    height: 30px;
+    border-radius: 9px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.second-liner {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 20px;
+    padding-top: 15px;
+}
+
+.second-liner-border {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    width: 100%;
+    padding-right: 18px;
+    padding-bottom: 11px;
+}
+
+
+.second-liner:hover .third-button {
+    background: purple;
+}
+
+.second-liner:hover .menu {
+    color: azure;
+}
+
+.second-icon {
+    color: white;
+    margin-left: auto;
+}
+
+
+
+
+.right-part {
+    display: flex;
+    background: #2b2929;
+    border-radius: 14px;
+}
+
+.personal-information {
+    padding: 20px;
+    padding-top: 5px;
+    padding-right: 0px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-right: 20px;
+}
+
+.first-last-name {
+    display: flex;
+    gap: 20px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    color: rgb(214, 203, 203);
+    font-size: smaller;
+}
+
+.input-text {
+    background: rgb(77, 70, 70);
+    border-radius: 6px;
+    border: 1px solid rgb(167, 157, 157);
+    color: white;
+    font-size: small;
+    padding: 5px;
+}
+
+.notifications {
+    padding: 20px;
+    padding-right: 0px;
+    padding-top: 5px;
+}
+
+.checkboxs {
+    display: flex;
+    gap: 45px;
+    padding-right: 20px;
+}
+
+.part-checkboxs {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.checkbox-text {
+    color: rgb(212, 207, 207);
+    font-size: smaller;
+}
+
+.label-text {
+    color: white;
+    font-size: smaller;
+    padding-bottom: 5px;
+}
+
+.first-text {
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    border-top: 1px solid gray;
+}
+
+.second-text {
+    font-size: small;
+    color:  rgb(134, 131, 131);
+    padding-bottom: 20px;
+}
+
+.changes {
+    display: flex;
+    gap: 25px;
+    border-top: 1px solid rgb(113, 109, 109);
+    padding: 25px;
+    margin-left: 20px;
+}
+
+.second-button {
+    background: rgb(43, 41, 41);
+    color: white;
+    border-radius: 14px;
+    display: flex;
+    cursor: pointer;
+    font-size: x-small;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    width: 138px;
+    height: 27px;
+    border: none;
+}
+
+.second-button:hover {
+    box-shadow: 2px 3px 10px 0px #000000;
+    background: rgb(129, 7, 129);
+}
